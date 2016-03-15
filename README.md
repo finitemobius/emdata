@@ -41,7 +41,7 @@ There are a few formats that meet the above criteria. The most popular are XML (
 
 After much research and experimentation, we settled on JSON as the best candidate for a common format. It requires very little in the way of annotation, with simple marks used to represent objects, arrays, etc. JSON is also designed for serializing data structures. This makes it very easy to represent arrays of objects, nested structures, and arbitrary data structures.
 
-JSON is well-documented [1] [2], and there are implementations for over 60 programming and scripting languages [2]. It can also be used as object literals in JSON and dictionary literals in Python, and it resembles table constructors in Lua and anonymous types in C#. Anyone familiar with these languages will be able to quickly understand and begin using JSON.
+JSON is [well-documented][1], and there are [implementations for over 60 programming and scripting languages][2]. It can also be used as object literals in JSON and dictionary literals in Python, and it resembles table constructors in Lua and anonymous types in C#. Anyone familiar with these languages will be able to quickly understand and begin using JSON.
 
 ## Using JSON for CEM
 
@@ -91,3 +91,6 @@ Further, we can extend this format to store multiple data sets in a single file,
 In an effort to promote adoption of this new format, we are sharing the format description with the community using an open license and invite community participation in its development. The format description consists primarily of a grammar and a universal lexicon. It may also consist of example files and parsers, if the community wishes to contribute these.
 
 It is our hope that allowing all the stakeholders to participate in the formation of this standard results in something useful for the entire community. The computer science community has made incredible progress in this arena, and it is time for our community to reap the benefits.
+
+[1]:http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf
+[2]:http://www.json.org/
