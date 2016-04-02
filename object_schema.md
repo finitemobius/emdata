@@ -6,7 +6,7 @@ The entire EMData data set is contained in a single JSON object.
 
 The EMData object must have a type. Each EMData object should only contain one type of data. (*e.g.*, Near fields should not be mixed with far fields.)
 
-Universally understood types are documented on a separate page. Other, custom types can be used, but they will not be universally recognized. In these cases, data sets will not necessarily be able to be validated or operated on by CEM software.
+Universally understood types are documented [separately](./data_types.md). Other, custom types can be used, but they will not be universally recognized. In these cases, data sets will not necessarily be able to be validated or operated on by CEM software.
 
 The EMData object must contain a `data` array. This array is a set of one or more *dataset* objects.
 
@@ -67,16 +67,17 @@ Dependent variables are typically vectors and/or phasors, so they require more k
 {
   "quantity": "coordinate",
   "component": "x",
-  "units": "meters",
+  "unit": "meters",
   "data": [
-    // numerics ]
+    // numerics
+  ]
 }
 // column object example: dependent variable
 {
   "quantity": "electric field",
   "vectorComponent": "x",
   "phasorComponent": "magnitude",
-  "units": "V/m",
+  "unit": "V/m",
   "data": [
     // numerics
   ]
