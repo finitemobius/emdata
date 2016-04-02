@@ -58,7 +58,7 @@ A column object must contain a `data` array. This array is a set of one or more 
 
 Depending on the quantity, certain other keys may be required.
 
-Independent variables — such as spatial coordinates, time, t phase — typically only need a `component` and `unit`.
+Independent variables — such as spatial coordinates, time, *ωt* phase — typically only need a `component` and `unit`.
 
 Dependent variables are typically vectors and/or phasors, so they require more keys to describe the components. The keys required for different quantities are documented separately.
 
@@ -74,8 +74,8 @@ Dependent variables are typically vectors and/or phasors, so they require more k
 // column object example: dependent variable
 {
   "quantity": "electric field",
-  "vector component": "x",
-  "phasor component": "magnitude",
+  "vectorComponent": "x",
+  "phasorComponent": "magnitude",
   "units": "V/m",
   "data": [
     // numerics
