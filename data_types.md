@@ -59,25 +59,25 @@ A monostatic RCS is specified at the dataset level as:
   {
     "vectorComponent": "theta",
     "phasorComponent": "magnitude",
-    "unit": "dBsm",
-    "value": 10.0
+    "unit": "V/m",
+    "value": 1.0
   },
   {
     "vectorComponent": "theta",
     "phasorComponent": "phase",
-    "unit": "radians",
-    "value": 3.14159
-  }
+    "unit": "degrees",
+    "value": 0.0
+  },
   {
     "vectorComponent": "phi",
     "phasorComponent": "magnitude",
-    "unit": "dBsm",
-    "value": -10.0
+    "unit": "V/m",
+    "value": 0.0
   },
   {
     "vectorComponent": "phi",
     "phasorComponent": "phase",
-    "unit": "radians",
+    "unit": "degrees",
     "value": 0.0
   }
 ]
@@ -90,20 +90,20 @@ A bistatic RCS is specified at the dataset level as:
   {
     "vectorComponent": "theta",
     "phasorComponent": "magnitude",
-    "unit": "dBsm",
-    "value": 10.0
+    "unit": "V/m",
+    "value": 1.0
   },
   {
     "vectorComponent": "theta",
     "phasorComponent": "phase",
     "unit": "degrees",
-    "value": 150.0
-  }
+    "value": 0.0
+  },
   {
     "vectorComponent": "phi",
     "phasorComponent": "magnitude",
-    "unit": "dBsm",
-    "value": -10.0
+    "unit": "V/m",
+    "value": 0.0
   },
   {
     "vectorComponent": "phi",
