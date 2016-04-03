@@ -111,7 +111,7 @@ A bistatic RCS is specified at the dataset level as:
     "unit": "degrees",
     "value": 0.0
   }
-]
+],
 "incidentDirection": [
   {
     "component": "theta",
