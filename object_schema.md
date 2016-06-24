@@ -27,7 +27,7 @@ The EMData object can contain any number of other arbitrary keys and values. If 
 * date
 * author
 * frequency - If all data sets share a frequency, it could be defined here
-* position - The 3-D coordinate position of the antenna center point (useful for 3-D plotting)
+* position - The 3-D [coordinate][1] position of the antenna center point (useful for 3-D plotting)
 * orientation - A quaternion (for example) describing how the source was oriented
 * source - Where the data were acquired or how they were generated
 
@@ -58,7 +58,7 @@ A column object must contain a `data` array. This array is a set of one or more 
 
 Depending on the quantity, certain other keys may be required.
 
-Independent variables — such as spatial coordinates, time, *ωt* phase — typically only need a `component` and `unit`.
+Independent variables — such as spatial [coordinates][1], time, *ωt* phase — typically only need a `component` and `unit`.
 
 Dependent variables are typically vectors and/or phasors, so they require more keys to describe the components. The keys required for different quantities are documented separately.
 
@@ -83,3 +83,4 @@ Dependent variables are typically vectors and/or phasors, so they require more k
   ]
 }
 ```
+[1]:coordinate_systems.md

@@ -24,7 +24,7 @@ Extensibility is key for any data interchange format. In the past, proposed comm
 
 In addition to being extensible, a data interchange format should be self-describing and flexible. The user should not need a priori knowledge of the data file structure and contents to make use of the file. The importing software should be able to tell what data are in the file, where the data begins and ends, what units are in use, etc. More automation and fewer opportunities for error are necessary for efficient handling of large datasets.
 
-Partly as a consequence of a lack of extensibility and self-description, each software package or user organization has its own preferred “common” data format. Deviations between preferred formats include sort order, units, and coordinate references. If one user’s “common” data format does not support another user’s preferred data type, unit, etc., both users will end up choosing different formats. It is clear that broad acceptance requires buy-in from both users and software developers.
+Partly as a consequence of a lack of extensibility and self-description, each software package or user organization has its own preferred “common” data format. Deviations between preferred formats include sort order, units, and [coordinate references][3]. If one user’s “common” data format does not support another user’s preferred data type, unit, etc., both users will end up choosing different formats. It is clear that broad acceptance requires buy-in from both users and software developers.
 
 ## Proposed Solution
 
@@ -94,3 +94,4 @@ It is our hope that allowing all the stakeholders to participate in the formatio
 
 [1]:http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf
 [2]:http://www.json.org/
+[3]:coordinate_systems.md
