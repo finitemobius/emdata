@@ -2,7 +2,7 @@
 [emdata][1] files use the Cartesian, cylindrical, and spherical coordinate systems as used by [Harrington][2], [Hayt and Buck][3], and others. Software that implements [emdata][1] will recognize these coordinate systems according to the following descriptions. These coordinate systems apply to _coordinate_ and _vector component_ columns.
 
 ## Cartesian
-The cartesian, or _rectangular_, coordinate system is defined by the _x_, _y_, and _z_ axes.
+The Cartesian, or _rectangular_, coordinate system is defined by the _x_, _y_, and _z_ axes.
 
 This system is right-handed, in that the following unit-vector cross-products are valid:
 * **_x_** × **_y_** = **_z_**
@@ -35,7 +35,7 @@ See [Wikipedia][6] ("as commonly used in physics") for more details.
 Other coordinate systems may be supported by software utilities, but the systems above shall be understood universally.
 
 ## Coordinates and Vector Components
-Coordinates and vectors components for a single dataset don't necessarily need to use the same coordinate systems. For example, a far-field pattern expressed in spherical coordinates may have columns defining _x_, _y_, or _z_ polzarizations.
+Coordinate and vector components for a single dataset don't necessarily need to use the same coordinate systems. For example, a far-field pattern expressed in spherical coordinates may have columns defining _x_, _y_, or _z_ polzarizations.
 
 [1]:https://github.com/finitemobius/emdata
 [2]:https://www.amazon.com/Time-Harmonic-Electromagnetic-Fields-Roger-Harrington/dp/047120806X
