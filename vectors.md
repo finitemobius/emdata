@@ -31,7 +31,7 @@ For far-field data, there is no **r** component, so far-field data must include 
 }
 ```
 
-The actual magnitude must be used, not a statement describing how **r** was normalized.
+The actual coordinate value must be used, not a statement describing how _r_ was normalized.
 
 ## Circular
 Circular vector components are unique to far-field data. They are related to the spherical vector components. Where possible, one should prefer spherical components.
