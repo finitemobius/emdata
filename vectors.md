@@ -18,7 +18,7 @@ The Spherical coordinate system is discussed in [Coordinate Systems][4].
 
 Except for far-field data, a fully-defined set of Spherical vector data must contain the **r**, **θ**, and **φ** components.
 
-For far-field data, there is no **r** component, so far-field data must include the **θ** and **φ** components. However, if a set of far-field data contains _field_ values (_e.g._, fields in `V/m` rather than directivity in `dBi`), the magnitude of **r** must be defined within the dataset, as follows.
+For far-field data, there is no **r** component, so far-field data must include the **θ** and **φ** components. However, if a set of far-field data contains _field_ values (_e.g._, fields in `V/m` rather than directivity in `dBi`), the effective _r_ coordinate must be defined within the dataset, as follows.
 
 ```javascript
 // dataset object example
