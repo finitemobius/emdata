@@ -8,18 +8,18 @@ The emdata format was born of [Jason R. Miller][9]'s presentation and accompanyi
 This project contains the specification for the emdata format, as well as some example emdata files. A separate project will be maintained with a sample implementation.
 
 ## Contents
-1. [Background][1] (Original ACES Paper)
+1. [Background][1]
 1. [Object Schema][2]
 1. [Data Types][3]
 1. [Coordinate Systems][4]
-1. [Vectors][5]
-1. [Phasors][6]
+1. [Vector Components][5]
+1. [Phasor Components][6]
 1. [Units][7]
 
 ## License
 This project is licensed under [The MIT License][8].
 
-[1]:original_paper.md
+[1]:aces_paper.md
 [2]:object_schema.md
 [3]:data_types.md
 [4]:coordinate_systems.md
