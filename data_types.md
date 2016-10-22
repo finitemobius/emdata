@@ -36,7 +36,7 @@ Far fields are specified at the top level of the object as:
 "type": "far field"
 ```
 
-It is also possible to represent far fields as spherical modes. This is discussed in the [Vector Components][3] section.
+It is also possible to represent far fields as [Spherical Modes][4], discussed separately.
 
 ## Radar Cross-Section
 Radar cross-sections (RCS) are very similar to far fields. However, the existence of an incident field and monostatic and bistatic RCS necessitate a separate description.
@@ -147,3 +147,4 @@ Currently (no pun intended), there is no means to map currents to geometry eleme
 [1]:coordinate_systems.md
 [2]:object_schema.md
 [3]:vectors.md
+[4]:spherical_modes.md

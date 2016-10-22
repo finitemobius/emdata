@@ -57,14 +57,6 @@ A fully-defined set of Ludwig-3 data must include the **co** and **cross** compo
 
 We do not use simply `co` and `cross` for Ludwig-3, as we want users to be able to define their own (non-universal) references for these.
 
-## Spherical Modes
-Spherical modes are a valid way to represent far-field data, and are treated as vector components for the purposes of the emdata format. Spherical modes are discussed in depth in [Richie and Johnson's IEEE paper][9].
-
-A fully-defined set of spherical mode data must include _TBD_. These are defined in the emdata file as:
-* _TBD_
-
-See [Wikipedia][10] for more details.
-
 # Transforms
 It is possible to transform the vector component system to a local reference. For example, a far-field dataset in spherical coordinates may be rotated such that the poles are not aligned to the global _z_ axis. In this case, we require a means to specify the orientation of the vector data.
 
@@ -80,6 +72,4 @@ _TBD_
 [6]:https://en.wikipedia.org/wiki/Circular_polarization
 [7]:http://ieeexplore.ieee.org/document/1140406/
 [8]:http://ieeexplore.ieee.org/document/931162/
-[9]:http://ieeexplore.ieee.org/document/134701/
-[10]:https://en.wikipedia.org/wiki/Spherical_harmonics
 [11]:https://en.wikipedia.org/wiki/Quaternion

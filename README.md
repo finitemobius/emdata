@@ -15,6 +15,7 @@ This project contains the specification for the emdata format, as well as some e
 1. [Vector Components][5]
 1. [Phasor Components][6]
 1. [Units][7]
+1. [Spherical Modes][12]
 
 ## License
 This project is licensed under [The MIT License][8].
@@ -30,3 +31,4 @@ This project is licensed under [The MIT License][8].
 [9]:https://goo.gl/24F3OA
 [10]:http://www.aces-society.org/
 [11]:http://www.ieeeaps.org/
+[12]:spherical_modes.md
