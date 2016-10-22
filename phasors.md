@@ -11,8 +11,8 @@ A phasor quantity, *Z*, may be represented by its amplitude (or magnitude), *A*,
 Where *e* is [Euler's number][4] and *j* is the [imaginary unit][5].
 
 These are referenced in the emdata file as:
-* `"phasorComponent" = "amplitude"` (or `"magnitude"`)
-* `"phasorComponent" = "phase"`
+* `"phasorComponent": "amplitude"` (or `"magnitude"`)
+* `"phasorComponent": "phase"`
 
 ## Real and Imaginary
 A phasor quantity, *Z*, may be represented by its real, *R*, and imaginary, *X*, parts as follows:
@@ -22,8 +22,8 @@ A phasor quantity, *Z*, may be represented by its real, *R*, and imaginary, *X*,
 Where *j* is the [imaginary unit][5].
 
 These are referenced in the emdata file as:
-* `"phasorComponent" = "real"`
-* `"phasorComponent" = "imaginary"`
+* `"phasorComponent": "real"`
+* `"phasorComponent": "imaginary"`
 
 Both of these components *should* have the same units. It is not strictly necessary, but it precludes confusion and headaches.
 
