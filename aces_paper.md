@@ -40,7 +40,7 @@ There are a few formats that meet the above criteria. The most popular are XML (
 
 After much research and experimentation, we settled on JSON as the best candidate for a common format. It requires very little in the way of annotation, with simple marks used to represent objects, arrays, etc. JSON is also designed for serializing data structures. This makes it very easy to represent arrays of objects, nested structures, and arbitrary data structures.
 
-JSON is [well-documented][1], and there are [implementations for over 60 programming and scripting languages][2]. It can also be used as object literals in JSON and dictionary literals in Python, and it resembles table constructors in Lua and anonymous types in C#. Anyone familiar with these languages will be able to quickly understand and begin using JSON.
+JSON is [well-documented][1], and there are [implementations for over 60 programming and scripting languages][2]. It can also be used as object literals in Javascript and dictionary literals in Python, and it resembles table constructors in Lua and anonymous types in C#. Anyone familiar with these languages will be able to quickly understand and begin using JSON.
 
 ## Using JSON for CEM
 The essential idea that we are promoting in using JSON for CEM is providing each column as a key-value pair, with the value being a one-dimensional array. Each column’s array is ordered such that the nth element corresponds to the nth element in all the other columns in the data set.
